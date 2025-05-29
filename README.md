@@ -73,6 +73,8 @@ pytest
 ```
 
 🌐 API Endpoints
+
+```
 Method Endpoint Description
 GET / HTML upload form (optional UI)
 GET /health Health check
@@ -83,6 +85,8 @@ GET /pipelines List all jobs
 GET /pipeline/{job_id}/results Retrieve job results
 POST /pipeline/{job_id}/cancel Cancel a running job
 GET /pipeline/{job_id}/logs View pipeline logs
+```
+
 ⚙️ Pipeline Execution
 
     Workflows are defined using Nextflow and run on AWS Batch
