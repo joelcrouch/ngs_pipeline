@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# Conda
+conda-meta/
+*.conda
+*.ipynb_checkpoints
+*.env
+*.yaml
+
+# Poetry
+poetry.lock
+poetry.toml
+.cache/
+
+# Jupyter notebooks (optional)
+.ipynb_checkpoints/
+
+# FastAPI
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+*.tar
+*.bak
+docker-compose.override.yml
+
+# VS Code and other IDEs
+.vscode/
+.settings/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+*.envrc
+secrets.json
+.aws/
+
+# Nextflow
+work/
+.nextflow*
+pipeline_report.html
+
+# Build & distribution
+build/
+dist/
+*.egg
+*.whl
+*.spec
+
+# Test outputs
+htmlcov/
+coverage.xml
+pytest_cache/
+.cache/
+.tox/
+.nox/
+.pytest_cache/
+
+# Type checking & linting
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Logs and outputs
+logs/
+output/
+results/
+
+# Misc
+.DS_Store
+Thumbs.db
