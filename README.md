@@ -97,17 +97,17 @@ GET /pipeline/{job_id}/logs View pipeline logs
 
 ✅ Testing Strategy
 
-    - [] Unit tests for core components: models, storage, pipeline logic
+- [] Unit tests for core components: models, storage, pipeline logic
 
-    - [] Mocked AWS services for local development
+- [] Mocked AWS services for local development
 
-    - [] Integration tests for full API and pipeline submission flow
+- [] Integration tests for full API and pipeline submission flow
 
 📦 Deployment (MVP Scope)
 
-    - [] Use docker-compose for local development and test
+- [] Use docker-compose for local development and test
 
-    - [] Production setup can evolve to ECS/EKS + RDS + real Batch queues
+- [] Production setup can evolve to ECS/EKS + RDS + real Batch queues
 
 🧪 Sample Test FASTQ File
 
